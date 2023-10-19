@@ -34,4 +34,56 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.0.0	/v6.0.0/
+BYTE_TO_BIT	src/block.rs	/^const BYTE_TO_BIT: u32 = 8;$/;"	C
+BYTE_TO_BIT	src/block.rs	/^const BYTE_TO_BIT: usize = 8;$/;"	C
+Block	src/block.rs	/^impl Block {$/;"	c
+Block	src/block.rs	/^impl Block<T> {$/;"	c
+Block	src/block.rs	/^impl Block<atom_t> {$/;"	c
+Block	src/block.rs	/^impl<T> Block<T> {$/;"	c
+Block	src/block.rs	/^pub struct Block {$/;"	s
+Block	src/block.rs	/^pub struct Block<T> {$/;"	s
+Block	src/block.rs	/^pub struct Block<atom_t> {$/;"	s
+Block	src/main.rs	/^pub struct Block<atom_t> {$/;"	s
+BlockParam	src/block.rs	/^pub struct BlockParam {$/;"	s
+_block_store	src/block.rs	/^    _block_store: Vec<T>,$/;"	m	struct:Block
+_block_store	src/block.rs	/^    _block_store: Vec<atom_t>,$/;"	m	struct:Block
+_block_store	src/block.rs	/^    _block_store: Vec<u64>,$/;"	m	struct:Block
+_block_store	src/main.rs	/^    _block_store: Vec<atom_t>,$/;"	m	struct:Block
+add	src/block.rs	/^    pub fn add(&mut self, atom_index: usize, item: T) {}$/;"	P	implementation:Block
+add	src/block.rs	/^    pub fn add(&mut self, index: usize, item: T) {$/;"	P	implementation:Block
+add	src/block.rs	/^    pub fn add(&mut self, index: usize, item: u64) {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(&self, atom_index: u32) -> T {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(&self, atom_index: usize) -> &T {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(&self, atom_index: usize) -> T {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(&self, atom_index: usize) -> u64 {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(atom_index: u32) -> T {$/;"	P	implementation:Block
+at	src/block.rs	/^    pub fn at(u32 atom_index) -> T{$/;"	P	implementation:Block
+atom_per_block	src/block.rs	/^        const atom_per_block = params.block_size_bits \/ atom_size_bits;$/;"	C	method:Block::new
+atom_per_block	src/block.rs	/^    atom_per_block: u32,$/;"	m	struct:Block
+atom_per_block	src/block.rs	/^    atom_per_block: usize,$/;"	m	struct:Block
+atom_size_bits	src/block.rs	/^    atom_size_bits: u32,$/;"	m	struct:Block
+atom_size_bits	src/block.rs	/^    atom_size_bits: usize,$/;"	m	struct:Block
+block	src/main.rs	/^pub mod block;$/;"	n
+block_size_bits	src/block.rs	/^    pub block_size_bits: u32,$/;"	m	struct:Block
+block_size_bits	src/block.rs	/^    pub block_size_bits: u32,$/;"	m	struct:BlockParam
+block_size_bits	src/block.rs	/^    pub block_size_bits: usize,$/;"	m	struct:BlockParam
+block_size_bits	src/main.rs	/^    pub block_size_bits: u32,$/;"	m	struct:Block
+fingerprint_per_atom	src/block.rs	/^    fingerprint_per_atom: u32,$/;"	m	struct:Block
+fingerprint_per_atom	src/block.rs	/^    fingerprint_per_atom: usize,$/;"	m	struct:Block
+fingerprint_size_bits	src/block.rs	/^    fingerprint_size_bits: usize,$/;"	m	struct:Block
+fingerprint_size_bits	src/block.rs	/^    pub fingerprint_size_bits: u32,$/;"	m	struct:Block
+fingerprint_size_bits	src/block.rs	/^    pub fingerprint_size_bits: u32,$/;"	m	struct:BlockParam
+fingerprint_size_bits	src/block.rs	/^    pub fingerprint_size_bits: usize,$/;"	m	struct:BlockParam
+fingerprint_size_bits	src/main.rs	/^    pub fingerprint_size_bits: u32,$/;"	m	struct:Block
 main	./src/main.rs	/^fn main() {$/;"	f
+main	src/main.rs	/^fn main() {$/;"	f
+new	src/block.rs	/^    pub fn new(block_size_bits: u32, fingerprint_size_bits: u32) {$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(mut self, params: BlockParam) {$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(params: BlockParam) -> Block {$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(params: BlockParam) -> Block<T> {$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(params: BlockParam) {}$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(self, params: BlockParam) -> Block<T> {$/;"	P	implementation:Block
+new	src/block.rs	/^    pub fn new(self, params: BlockParam) {$/;"	P	implementation:Block
+read_mask	src/block.rs	/^    read_mask: T,$/;"	m	struct:Block
+read_mask	src/block.rs	/^    read_mask: u64,$/;"	m	struct:Block
+read_mask	src/block.rs	/^    read_mask: usize,$/;"	m	struct:Block
